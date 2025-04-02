@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-496503404389827346
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0
---- !u!114 &-279168112871494790
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -33,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TattoChairSet_Leather_Mat
+  m_Name: Sink_Hand_Washing_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 8c60d3766ce156742928e1a9d61bd1d3,
     type: 3}
   m_Parent: {fileID: 0}
@@ -54,7 +28,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Color_Map:
-        m_Texture: {fileID: 2800000, guid: c0347dea290bdda48b49e1e18cfec81c, type: 3}
+        m_Texture: {fileID: 2800000, guid: fbbd7dacd66fd844b9f39d1ffc286d87, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emissive_Map:
@@ -66,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MRO_Map:
-        m_Texture: {fileID: 2800000, guid: 23cec919af19ab34cbd1276a7800715e, type: 3}
+        m_Texture: {fileID: 2800000, guid: ebc2039ad08affa439f93bc46bee2ef6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_Map:
-        m_Texture: {fileID: 2800000, guid: a3bda811a4d14aa49bf61f6cf2ba6c0a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2f536291b051e3148a3a1c35f964be4d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Three_Channel_Tint_Mask:
@@ -118,7 +92,7 @@ Material:
     - _Green_Channel_Mask_Range: 1
     - _Has_Blue_Channel_Tint: 0
     - _Has_Green_Channel_Tint: 0
-    - _Has_Red_Channel_Tint: 1
+    - _Has_Red_Channel_Tint: 0
     - _Has_Rim_Lighting: 0
     - _Invert_Blue_Channel_Mask: 0
     - _Invert_Green_Channel_Mask: 0
@@ -158,9 +132,35 @@ Material:
     - _Metallic_Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Normal_Map_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Normal_Map_Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Red_Channel_Tint_Colour: {r: 0.41509432, g: 0.16296293, b: 0, a: 0}
+    - _Red_Channel_Tint_Colour: {r: 1, g: 0, b: 0, a: 0}
     - _Rim_Colour: {r: 1, g: 1, b: 1, a: 0}
     - _Roughness_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Roughness_Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &5768361786121116290
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!114 &8553362286632180246
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
