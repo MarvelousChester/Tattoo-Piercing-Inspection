@@ -4,4 +4,9 @@
 <br>  
 This is the project repository for the Public Health Inspection Tattoo and Piercing Studio Inspection.
 <br>  
-Confluence Page: [LSM9.01B PHI Tattoo and Piercing Studio Inspection](https://varlab-dev.atlassian.net/wiki/spaces/VAR/pages/1550090242/PHI+-+Tattoo+and+Piercing+Studio+Inspection) 
+
+# Contributors
+Katrina Fraser, Carolina Naoum Junqueira, Topher Rouleau, Balazs Karner, Anzhelika Kostyuk, Juniper Inglis, Jordan Partridge, Juhwan Seo, Karandeep Sandhu, Salman Nouman Abulqasim
+
+# Original Project
+https://github.com/CC-Open-Learning/DLX-tattoo-piercing-inspection
